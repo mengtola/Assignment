@@ -1,0 +1,79 @@
+body{
+	font-family:"Arial";
+}
+.wrap {
+    min-height: 100%;
+    background: #fff;
+    position: relative;
+}
+
+.ms-style-background {
+    background-color: #e0ecff;
+    background: -moz-linear-gradient(top,#eff5ff 0,#e0ecff 100%);
+    background: -o-linear-gradient(top,#eff5ff 0,#e0ecff 100%);
+    background: linear-gradient(to bottom,#eff5ff 0,#e0ecff 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EFF5FF,endColorstr=#E0ECFF,GradientType=0);
+}
+
+
+.head {
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    background: #959799;
+    z-index: 1000;
+}
+
+#head-nav {
+    margin-left: 10px;
+}
+.content{
+	margin-top:30px;
+	padding:0 5px 0 5px;
+}
+
+.datagrid-row-selected td{
+	background:#39f;
+}
+#nav-child {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#nav-child li {
+    display: inline-block;
+}
+#nav-child li a {
+    margin: 0 18px 0 8px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 14px;
+    display: block;
+}
+#nav-child li ul {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgba(100,100,100,.4);
+    border-radius: 3px 0 3px 3px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.25);
+    z-index: 1000;
+    background: #fff;
+    height: auto;
+    margin-top: 0px;
+}
+#nav-child li ul li {
+    display: block;
+    padding-left: 8px;
+}
+#nav-child li ul li {
+    border-bottom: 1px dotted #3b5998;
+}
+#logo-wrap {
+    float: left;
+}
+

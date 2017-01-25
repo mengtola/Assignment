@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.account.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.account.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>  
+    <servlet>
+        <servlet-name>Customer</servlet-name>
+        <servlet-class>com.customer.Customer</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Customer</servlet-name>
+        <url-pattern>/customer</url-pattern>
+    </servlet-mapping>    
+    <servlet>
+        <servlet-name>Add</servlet-name>
+        <servlet-class>com.customer.Add</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Add</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping> 
+    <servlet>
+        <servlet-name>Edit</servlet-name>
+        <servlet-class>com.customer.Edit</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Edit</servlet-name>
+        <url-pattern>/edit</url-pattern>
+    </servlet-mapping>    
+</web-app>
